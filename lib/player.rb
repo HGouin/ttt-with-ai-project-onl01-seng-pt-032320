@@ -7,4 +7,5 @@ class Play
   end
 
   def token
+  end
 end
