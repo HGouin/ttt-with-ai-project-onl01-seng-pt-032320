@@ -1,4 +1,4 @@
-class Play
+class Player
 
   def initialize
     @player_1 = player_1
