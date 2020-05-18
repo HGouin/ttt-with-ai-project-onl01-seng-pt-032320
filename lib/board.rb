@@ -21,7 +21,7 @@ class Board
   end
 
   def position(index)
-    @cell[index] != " "
+    @cells[index] != " "
   end
 
   def full?
