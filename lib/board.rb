@@ -29,7 +29,7 @@ class Board
   end
 
   def turn_count
-    (0..@cell.length - 1).count{|index| position_taken?(index)}
+    (0..@cell.length - 1).count{|index| position(index)}
   end
 
   def taken?
