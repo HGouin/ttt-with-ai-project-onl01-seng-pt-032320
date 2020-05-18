@@ -14,6 +14,7 @@ class Board
   end
 
   def reset!
+    Array.new(9, " ")
   end
 
   def display
