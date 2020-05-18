@@ -5,7 +5,7 @@ class Board
 
 
   def initialize(cells = Array.new(9, " "))
-  @cells = cells || Array.new(9, " ")
+  @cells = cells
   end
 
   def cells
