@@ -20,8 +20,8 @@ class Board
     puts " #{@cells[6]} | #{@cells[7]} | #{@cells[8]} "
   end
 
-  def position(index, token = "X")
-    @cell[index] = token
+  def position(index)
+    @cell[index] != " "
   end
 
   def full?
