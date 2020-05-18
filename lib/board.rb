@@ -5,7 +5,7 @@ class Board
   def initialize
   end
 
-  def cells(cells:)
+  def cells
 
   end
 
