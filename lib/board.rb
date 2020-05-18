@@ -1,6 +1,6 @@
 class Board
 
-  attr_accessor :cells
+  attr_accessor :cells, :player
 
 
 
@@ -33,6 +33,7 @@ class Board
   end
 
   def taken?
+    turn_count % 2 == 0 ? "X" : "O"
   end
 
   def valid_move?(index)
