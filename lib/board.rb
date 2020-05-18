@@ -21,7 +21,7 @@ class Board
   end
 
   def position(index, token = "X")
-    @board[index] = token
+    @cell[index] = token
   end
 
   def full?
