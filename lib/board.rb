@@ -4,7 +4,7 @@ class Board
 
 
 
-  def initialize(cells = nil)
+  def initialize(cells = Array.new(9, " "))
   @cells = cells || Array.new(9, " ")
   end
 
