@@ -1,6 +1,6 @@
 class Board
 
-  attr_accessor :cells, :index, :token
+  attr_accessor :cells
 
 
 
