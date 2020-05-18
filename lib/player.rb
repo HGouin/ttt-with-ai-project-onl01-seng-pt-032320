@@ -1,6 +1,6 @@
 class Player
 
-  def initialize(token)
+  def initialize(token="X")
     @token = token
   end
 
