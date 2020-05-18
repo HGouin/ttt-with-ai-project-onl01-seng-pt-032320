@@ -13,8 +13,8 @@ class Board
   [0,4,8]
 ]
 
-  def initialize(board = nil)
-  @board = board || Array.new(9, " ")
+  def initialize(cells = nil)
+  @cell = cell || Array.new(9, " ")
   end
 
   def cells
