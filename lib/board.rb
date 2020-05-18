@@ -24,11 +24,11 @@ class Board
   end
 
   def full?
-  turn_count == @board.length
+  turn_count == @cell.length
   end
 
   def turn_count
-    (0..@board.length - 1).count{|index| position_taken?(index)}
+    (0..@cell.length - 1).count{|index| position_taken?(index)}
   end
 
   def taken?
