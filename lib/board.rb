@@ -18,6 +18,7 @@ class Board
   end
 
   def cells
+    @cells = []
 
   end
 
